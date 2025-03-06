@@ -2,7 +2,7 @@ import os
 import sys
 
 if __name__ == "__main__":
-    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "your_project.settings")
+    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "event_management.settings")
     
     # Get the port from the environment variable (default 8000)
     port = os.environ.get("PORT", "8000")
